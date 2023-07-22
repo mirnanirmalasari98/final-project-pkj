@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan</title>
+    <style>
+        nav img {
+            width: 50px;
+        }
+
+        body {
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        nav {
+            position: relative;
+            width: 100%;
+            height: 60px;
+            background-color: #ffffff;
+            box-shadow: -1px -7px 20px 0px #888888;
+        }
+        nav h1 {
+            position: absolute;
+            top: 20px;
+            margin: 0;
+            float: left;
+            left: 55px;
+            text-decoration: none;
+            font-family: sans-serif;
+            color: #888888;
+        }
+
+        nav ul {
+            position: relative;
+            top: 20px;
+            margin: 0;
+            float: right;
+            right: 10%;
+
+        }
+
+        nav ul li {
+            float: left;
+            display: block;
+            margin: 0px 15px 0px 15px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #888888;
+            font-family: sans-serif;
+            font-size: 14px;
+        }
+        nav ul li a:hover{
+        color: orange;
+        }
+        #content-1, #content-2, #content-3, #content-4 {
+            min-height: 100vh;
+            padding-top: 50px;
+            flex: 1;
+        }
+
+        #content-1 {
+            
+            background-color: greenyellow;
+            
+        }
+        #content-2 {
+            background-color: pink;
+        }
+        #content-3 {
+            background-color: aqua;
+        }
+        #content-4 {
+            background-color: silver;
+        }
+
+
+
+        header {
+            position: fixed;
+            width: 100%;
+        }
+
+        footer {
+            margin-top: auto;
+            padding: .5em;
+            text-align: center;
+            background-color: #888888;
+        }
+
+        div.wrapper {
+            display: flex;
+            
+        }
+        div.wrapper h1 {
+            font-style: italic;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+            
+        }
+        
+        
+    </style>
+
+</head>
+<body>
+    <header>
+        <nav>
+            <img src="assets/image/favicon.ico" alt="Gambar Logo / Pas Photo" />
+            <h1>Mirna Nirmalasari</h1>
+
+            <ul>
+                <li><a href="#content-1">About</a></li>
+                <li><a href="#content-2">Experiences</a></li>
+                <li><a href="#content-3">Education </a></li>
+                <li><a href="#content-4">Skills</a></li>
+                <li><a href="#content-5">interest</a></li>
+                <li><a href="#content-5">Award</a></li>
+            </ul>
+
+        </nav>
+    </header>
+
+    <div class="wrapper">
+        <section id="content-1">
+            <h1>Judul Content 1</h1>
+        </section>
+        <section id="content-2">
+            <h1>Judul Content 2</h1>
+        </section>
+    </div>
+    <div class="wrapper">
+        <section id="content-3">
+            <h1>Judul Content 3</h1>
+        </section>
+        <section id="content-4">
+            <h1>Judul Content 4</h1>
+        </section>
+    </div>
+
+    <footer>
+        &copy; Copyright 2023 Mirna Nirmalasari. All Right Reserved
+    </footer>
+</body>
+</html>
