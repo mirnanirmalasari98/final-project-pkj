@@ -58,27 +58,45 @@
         nav ul li a:hover{
         color: orange;
         }
-        #content-1, #content-2, #content-3, #content-4 {
+        #content-1, #content-2 {
             min-height: 100vh;
             padding-top: 50px;
             flex: 1;
+            margin: 5px;
         }
-
+        #content-5, #content-6 {
+            min-height: 100vh;
+            padding-top: 50px;
+            flex: 1;
+            margin: 5px;
+            text-align: center;
+        }
         #content-1 {
-            
-            background-color: greenyellow;
-            
-        }
-        #content-2 {
-            background-color: pink;
-        }
-        #content-3 {
-            background-color: aqua;
-        }
-        #content-4 {
-            background-color: silver;
+            text-align: center;
         }
 
+        
+        #content-1 img {
+            height: auto;
+            width: 450px;
+            position: inherit;
+            margin-left: 50px;
+            
+
+        }
+    
+        #content-2 {
+           background-color: lightgray;
+        }
+        #content-5, #content-6 {
+            background-color:lavender;
+        }
+        #content-5 img {
+            height: auto;
+            width: 450px;
+            position: inherit;
+            margin-left: 50px;
+        }
 
 
         header {
@@ -112,7 +130,7 @@
     <header>
         <nav>
             <img src="assets/image/favicon.ico" alt="Gambar Logo / Pas Photo" />
-            <h1>Mirna Nirmalasari</h1>
+            <h1>My Curiculum Vitae</h1>
 
             <ul>
                 <li><a href="#content-1">About</a></li>
@@ -128,18 +146,54 @@
 
     <div class="wrapper">
         <section id="content-1">
-            <h1>Judul Content 1</h1>
+            <h1>about</h1>
+            <p class="about">Helo, My Name is <b>Mirna Nirmalasari</b>, you can call me <em>Mirna.</em></p>
+            <p>this is my first landing page, hope you like this, i love the simple website with monochrome color</p><br>
+            <img src="assets/image/foto1.jpg">
         </section>
         <section id="content-2">
-            <h1>Judul Content 2</h1>
+            <h1>My Experience</h1>
+            <ul class="experience">
+                <li>Internship in INT WANT Computer (July 2014-August 2014)</li>
+                <li>Helper in PT Changshin Reksa Jaya (September 2016-January 2018)</li>
+                <li>Material Handler in PT Changshin Reksa Jaya (January 2018-NOW)</li>
+            </ul>
+            <br>
+            <section id="content-3">
+                <h1>Education</h1>
+                <ul class="education">
+                    <li>TK ANGKASA</li>
+                    <li>SD Karangsambung</li>
+                    <li>SMP I Husnul Khotimah</li>
+                    <li>SMK ANGKASA (Software Engineer)</li>
+                </ul>
+        </section>
+        <section id="content-4">
+            <h1>Skills</h1>
+            <ul class="skills"><b>Hard Skill </b>
+                <li>Ms.excel</li>
+                <li> Ms.word</li>
+                <li> instalation computer</li>
+                <li> repair computer hardware</li>
+            </ul>>
+            <ul><b>soft skill</b> 
+                <li>understand english (not native)</li>
+                <li> japan language (N5).</li>
         </section>
     </div>
     <div class="wrapper">
-        <section id="content-3">
-            <h1>Judul Content 3</h1>
+        
         </section>
-        <section id="content-4">
-            <h1>Judul Content 4</h1>
+        
+        <section id="content-5">
+            <h1>interest</h1>
+            <p class="interest">i like hiking, traveling, and i started interesting about coding since this course.</p>
+            <img src="assets/image/foto2.jpg" alt="foto interest">
+        </section>
+        <section id="content-6">
+            <h1>Award</h1>
+            <p class="Award">i don't have an award, not yet maybe, but i will always improve my skill </p>
+            <img src="assets/image/foto3.jpg" alt="foto award">
         </section>
     </div>
 
